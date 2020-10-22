@@ -1,0 +1,5 @@
+files:
+  - source: /release-notes/*.md
+    translation: /release-notes/%two_letters_code%/%original_file_name%
+  - source: /blogs/**/*.md
+    translation: /blogs/**/%two_letters_code%/%original_file_name%
