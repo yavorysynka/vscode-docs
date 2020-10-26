@@ -81,7 +81,7 @@ In the previous step, we generated an SSH key pair. We'll take the public key an
 
 ![Add SSH public key to VM](add-ssh-public-key.png)
 
-A cool feature of using Azure VMs is the ability to enable auto-shutdown (because let's face it, we all forget to turn off our VMs…). If you go to the **Management** tab, you can set the time you want to shut down the VM daily.
+A cool feature of using Azure VMs is the ability to enable auto-shutdown (because let's face it, we all forget to turn off our VMs… ). If you go to the **Management** tab, you can set the time you want to shut down the VM daily.
 
 ![Virtual machine auto-shutdown](vm-auto-shutdown.png)
 
@@ -177,7 +177,7 @@ The server will now forward traffic on port 5000 to our local machine. When you 
 
 ![Hello Remote World in a browser](hello-world-browser.png)
 
-Now, the real question is…can we debug from VS Code on our remote machine? YES! With the app still running, put a breakpoint on the line that returns the string "Hello Remote World" and select the restart button in the debugging control. Refresh the page in your browser and you'll hit the breakpoint! You're getting the same VS Code experience, with editing, debugging, and all your settings and extensions. 😊
+Now, the real question is… can we debug from VS Code on our remote machine? YES! With the app still running, put a breakpoint on the line that returns the string "Hello Remote World" and select the restart button in the debugging control. Refresh the page in your browser and you'll hit the breakpoint! You're getting the same VS Code experience, with editing, debugging, and all your settings and extensions. 😊
 
 ![Debugging over SSH](debug-hello-world.png)
 

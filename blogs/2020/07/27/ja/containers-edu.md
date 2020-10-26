@@ -121,7 +121,7 @@ Now that we've seen a fantastic example of a container, let's set up our first c
 
 ![Hello world Python app](14-helloworld-cropped.png)
 
-We'll select **Remote-Containers: Add Development Container Configuration Files…** to begin setting up the files necessary for a development container:
+We'll select **Remote-Containers: Add Development Container Configuration Files… ** to begin setting up the files necessary for a development container:
 
 ![Add Development Container Configuration Files command](15-add-config.png)
 

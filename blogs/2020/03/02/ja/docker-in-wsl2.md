@@ -46,7 +46,7 @@ If you have multiple Linux distros, make sure you only have WSL integration turn
 
 ![Docker settings dialog](docker-resources-wsl-integration.png)
 
-With that configured, all commands will execute in the Linux context - this includes Docker commands run from PowerShell so running something like `docker run mongo…` will start a Linux container within the WSL VM.
+With that configured, all commands will execute in the Linux context - this includes Docker commands run from PowerShell so running something like `docker run mongo… ` will start a Linux container within the WSL VM.
 
 ![docker run mongo command](docker-run-mongo.png)
 

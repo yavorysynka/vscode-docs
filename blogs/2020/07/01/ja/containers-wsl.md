@@ -89,7 +89,7 @@ While you can access source code from both Windows and the WSL 2 filesystem when
 
 We need to select the folder we want to open in a container. First, make sure you've installed the [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension. We can then call the **Remote-Containers: Reopen Folder in Container** command from a folder already opened using the Remote - WSL extension.
 
-I have an existing HelloNode folder on my WSL 2 filesystem with my Node project in it. I'll select: **Remote-Containers: Reopen in Container…**:
+I have an existing HelloNode folder on my WSL 2 filesystem with my Node project in it. I'll select: **Remote-Containers: Reopen in Container… **:
 
 ![Command Palette: Remote-Containers: Reopen in Container...](7-reopen-container.png)
 

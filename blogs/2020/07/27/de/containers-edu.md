@@ -23,7 +23,7 @@ Development containers with Visual Studio Code can serve as a fantastic tool in 
 
 So, what are development containers? [Containers](https://www.docker.com/resources/what-container) are pieces of software that package code and all of the dependencies that code needs to run, including the runtime, tools, libraries, and settings. Containers were initially created as a way to deploy and manage apps in a consistent environment and make more efficient use of hardware. They later evolved to help in providing a consistent build environment, and more recently, development environment. That's where the name dev container comes from.
 
-When you create a container, its initial contents come from what's known as an “image.” An image can be thought of as a mini-disk drive with things like the operating system and other tools pre-installed. You describe what goes into the image using a Dockerfile, and once you run the image, it becomes a container.
+When you create a container, its initial contents come from what's known as an “image.” When you create a container, its initial contents come from what's known as an “image.” An image can be thought of as a mini-disk drive with things like the operating system and other tools pre-installed. You describe what goes into the image using a Dockerfile, and once you run the image, it becomes a container.
 
 Dev containers provide a separate coding environment from your computer. For example, if you download a specific version of a dependency, that version will be unique to the container. In the diagram below, notice how the container includes the app and its necessary dependencies, keeping the computer (Host OS and Infrastructure) free and clean of any dependencies:
 

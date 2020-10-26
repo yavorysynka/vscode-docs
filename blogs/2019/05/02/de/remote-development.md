@@ -77,7 +77,7 @@ The **[Remote - WSL](https://marketplace.visualstudio.com/items?itemName=ms-vsco
 
 Commands and extensions are run directly in the Linux distro, so you don't have to worry about pathing issues, binary compatibility, or other cross-OS challenges. You're able to use VS Code in WSL just as you would from Windows.
 
-Check out this quick, 2-minute video to see how easy it is to develop in WSL. <iframe width="560" height="315" src="https://www.youtube.com/embed/mIHprjsSO9o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
+Check out this quick, 2-minute video to see how easy it is to develop in WSL.  <iframe width="560" height="315" src="https://www.youtube.com/embed/mIHprjsSO9o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
 
 For more information, please see the [Developing in WSL](https://aka.ms/vscode-remote/wsl) documentation.
 
@@ -93,7 +93,7 @@ For example, let's assume you are working on a deep learning project. You typica
 
 You could use Vim over SSH or Jupyter Notebooks to edit your remote code, but you give up the richness of your local development tools. Instead, with the **Remote - SSH** extension, you simply connect to the VM, install the necessary extensions like [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python), and then you can leverage all of the great features of VS Code such as IntelliSense (completions), code navigation, and debugging, as if you were working locally.
 
-Check out this quick, 2-minute video to see how easy it is to develop on a virtual machine over SSH. <iframe width="560" height="315" src="https://www.youtube.com/embed/rh1Ag41J6IA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
+Check out this quick, 2-minute video to see how easy it is to develop on a virtual machine over SSH.  <iframe width="560" height="315" src="https://www.youtube.com/embed/rh1Ag41J6IA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
 
 For more information, please see the [Developing using SSH](https://aka.ms/vscode-remote/ssh) documentation.
 
@@ -107,7 +107,7 @@ The **[Remote - Containers](https://marketplace.visualstudio.com/items?itemName=
 
 A `devcontainer.json` file can be used to tell VS Code how to configure the development container, including the `Dockerfile` to use, ports to open, and extensions to install in the container. When VS Code finds a `devcontainer.json` in the workspace, it automatically builds (if necessary) the image, starts the container, and connects to it. Your files are mounted into the container so you can open files and start editing with full IntelliSense (completions), code navigation, debugging, and more.
 
-Check out this quick, 2-minute video to see Development Containers in action. <iframe width="560" height="315" src="https://www.youtube.com/embed/TVcoGLL6Smo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
+Check out this quick, 2-minute video to see Development Containers in action.  <iframe width="560" height="315" src="https://www.youtube.com/embed/TVcoGLL6Smo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
 
 For more information on development containers, please see the [Developing inside a Container](https://aka.ms/vscode-remote/containers) documentation as well as the [vscode-remote-try-* repositories](https://github.com/search?q=org%3AMicrosoft+vscode-remote-try-&unscoped_q=vscode-remote-try-) that contain samples you can use today.
 
