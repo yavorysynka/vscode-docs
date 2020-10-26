@@ -18,7 +18,7 @@ Visual Studio Code supports a lot of customizations, in particular the look of y
 
 ## Color Themes
 
-A powerful customization is the ability to change a Color Theme. A Color Theme is a set of colors for the editor background, text, language syntax, etc. VS Code comes with several built-in themes and there are hundreds you can install from the [Marketplace](https://marketplace.visualstudio.com/search?term=tag%3A%22color%20theme%22&target=VSCode&category=Themes&sortBy=Downloads).
+A powerful customization is the ability to change a Color Theme. A Color Theme is a set of colors for the editor background, text, language syntax, etc. A Color Theme is a set of colors for the editor background, text, language syntax, etc. VS Code comes with several built-in themes and there are hundreds you can install from the [Marketplace](https://marketplace.visualstudio.com/search?term=tag%3A%22color%20theme%22&target=VSCode&category=Themes&sortBy=Downloads).
 
 <div class="marketplace-popular-color-themes"></div>
 
