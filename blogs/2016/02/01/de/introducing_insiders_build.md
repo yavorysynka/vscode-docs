@@ -1,6 +1,6 @@
 ---
 Order:
-TOCTitle: The Insiders Build
+TOCTitle: Die Insider bauen
 PageTitle: Introducing the Insiders Build
 MetaDescription: insiders build
 MetaSocialImage: /assets/blogs/2016/02/01/opengraph_insiders.png

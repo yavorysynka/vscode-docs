@@ -9,7 +9,7 @@ ShortDescription: VS Code has its roots in the web (built using TypeScript and N
 Author: Chris Dias
 ---
 
-# インサイダービルドの紹介
+# Introducing the Insiders Build
 
 February 1, 2016 by Chris Dias, [@chrisdias](https://twitter.com/chrisdias)
 
