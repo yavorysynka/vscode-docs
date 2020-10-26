@@ -86,6 +86,7 @@ import { getLanguageService } from 'vscode-html-languageservice'
 getLanguageService({
   customDataProviders: [...]
 })
+})
 ```
 
 Our built-in [HTML language server](https://github.com/microsoft/vscode/tree/master/extensions/html-language-features) utilizes this API to load a curated set of Custom Data that we have collected from various sources:
