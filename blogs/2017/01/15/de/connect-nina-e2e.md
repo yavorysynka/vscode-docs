@@ -241,7 +241,7 @@ Go back to the running app, add a new todo, and you'll notice that VS Code has n
 
 <img src="/assets/blogs/2017/01/15/ChromePause.png" width="350px" />
 
-Just like with the Node.js debugging, you can hover over expressions, view locals/watches, evaluate expressions in the console, etc. However, there are two cools things to consider now:
+Just like with the Node.js debugging, you can hover over expressions, view locals/watches, evaluate expressions in the console, etc. However, there are two cools things to consider now: However, there are two cools things to consider now:
 
 1. The `Call Stack` pane displays two different stacks: `Node` and `Chrome`, and indicates which one is currently paused.
 
