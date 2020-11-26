@@ -55,10 +55,7 @@ In each monthly release, we've added features and improvements that we hope you 
 
 | Release                         | Features                                                                                                                  | Foundation                                                                        |
 | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| [October 2017](/updates/v1_18)  | Multi-root workspaces   
-Vertical panel layout   
-Inline Git change review   
-Auto-import JS/TS                           | Improved Windows Cold start  
+| [October 2017](/updates/v1_18)  | Multi-root workspaces                                                                                                     | Improved Windows Cold start  
 Decoration optimizations  
 Improved recommendations |
 | [September 2017](/updates/v1_)  | Support for multiple SCM repos   

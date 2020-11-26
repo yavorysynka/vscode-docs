@@ -53,7 +53,7 @@ enum NodeType {
 }
 ```
 
-After the file is initially loaded, the piece table contains the whole file contents in the `original` field. The `added` field is empty. There is a single node of type `NodeType.Original`. When a user types at the end of a file, we append the new content to the `added` field, and we will insert a new node of type `NodeType.Added` at the end of the node list. Similarly, when a user makes edits in the middle of a node, we will split that node and insert a new one as needed.
+After the file is initially loaded, the piece table contains the whole file contents in the `original` field. The `added` field is empty. There is a single node of type `NodeType. When a user types at the end of a file, we append the new content to the <code>added` field, and we will insert a new node of type `NodeType. Added` at the end of the node list. Similarly, when a user makes edits in the middle of a node, we will split that node and insert a new one as needed.
 
 The animation below shows how to access the document line by line in a piece table structure. It has two buffers (`original` and `added`) and three nodes (which is caused by an insertion in the middle of the `original` content`).
 

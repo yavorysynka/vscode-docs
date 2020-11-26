@@ -56,7 +56,7 @@ At the time of the scan, the following extensions contained the malicious code:
 * `Paul-Ehigie-Paul.nativescript-extend`
 * `qoretechnologies.qorus-vscode`
 * `quantum.quantum-devkit-vscode`
-* `ritwickdey.LiveServer`
+* `ritwickdey. LiveServer`
 * `rkoubou.ksp`
 * `roboceo.robojsx-plugin`
 * `salbert.comment-ts`

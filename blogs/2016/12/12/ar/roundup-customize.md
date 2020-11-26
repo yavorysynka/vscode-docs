@@ -33,7 +33,7 @@ Color themes are important. When you are staring at your editor for hours each d
 Some of my favorite themes are:
 
 - [Sublime Material Theme](https://marketplace.visualstudio.com/items?itemName=jprestidge.theme-material-theme) from [Jarvis Prestidge](https://marketplace.visualstudio.com/search?term=publisher%3A%22Jarvis%20Prestidge%22&target=VSCode&sortBy=Relevance)
-- [Flatland Monokai Theme](https://marketplace.visualstudio.com/items?itemName=gerane.Theme-FlatlandMonokai) from [gerane](https://marketplace.visualstudio.com/search?term=publisher%3A%22gerane%22&target=VSCode&sortBy=Relevance)
+- [Flatland Monokai Theme](https://marketplace.visualstudio.com/items?itemName=gerane. Theme-FlatlandMonokai) from [gerane](https://marketplace.visualstudio.com/search?term=publisher%3A%22gerane%22&target=VSCode&sortBy=Relevance)
 - [Hopscotch (Official)](https://marketplace.visualstudio.com/items?itemName=idleberg.hopscotch) from [idleberg](https://marketplace.visualstudio.com/search?term=publisher%3A%22idleberg%22&target=VSCode&sortBy=Relevance)
 - [One Monokai Theme](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai) from [Joshua Azemoh](https://marketplace.visualstudio.com/search?term=publisher%3A%22Joshua%20Azemoh%22&target=VSCode&sortBy=Relevance)
 
@@ -63,14 +63,14 @@ Do you use snippets while writing code? Many snippets come built into VS Code an
 When you start using a new library or framework, check the Marketplace to see if there is a snippet pack for it. There are snippet packs for many popular JavaScript frameworks.
 
 - [Bootstrap 3](https://marketplace.visualstudio.com/items?itemName=wcwhitehead.bootstrap-3-snippets) from [William Whitehead](https://marketplace.visualstudio.com/search?term=publisher%3A%22William%20Whitehead%22&target=VSCode&sortBy=Relevance)
-- [Angular 2](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2) from [John Papa](https://marketplace.visualstudio.com/search?term=publisher%3A%22johnpapa%22&target=VSCode&sortBy=Relevance)
+- [Angular 2](https://marketplace.visualstudio.com/items?itemName=johnpapa. Angular2) from [John Papa](https://marketplace.visualstudio.com/search?term=publisher%3A%22johnpapa%22&target=VSCode&sortBy=Relevance)
 - [jQuery](https://marketplace.visualstudio.com/items?itemName=donjayamanne.jquerysnippets) from [Don Jayamanne](https://marketplace.visualstudio.com/search?term=publisher%3A%22Don%20Jayamanne%22&target=VSCode&sortBy=Relevance)
 
 Many language extensions come with snippets included.
 
 - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) from [Microsoft](https://marketplace.visualstudio.com/search?term=publisher%3A%22Microsoft%22&target=VSCode&sortBy=Relevance)
-- [Power Shell](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell) from [Microsoft](https://marketplace.visualstudio.com/search?term=publisher%3A%22Microsoft%22&target=VSCode&sortBy=Relevance)
-- [Ruby](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby) from [Peng Lv](https://marketplace.visualstudio.com/search?term=publisher%3A%22Peng%20Lv%22&target=VSCode&sortBy=Relevance)
+- [Power Shell](https://marketplace.visualstudio.com/items?itemName=ms-vscode. PowerShell) from [Microsoft](https://marketplace.visualstudio.com/search?term=publisher%3A%22Microsoft%22&target=VSCode&sortBy=Relevance)
+- [Ruby](https://marketplace.visualstudio.com/items?itemName=rebornix. Ruby) from [Peng Lv](https://marketplace.visualstudio.com/search?term=publisher%3A%22Peng%20Lv%22&target=VSCode&sortBy=Relevance)
 - [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) from [Microsoft](https://marketplace.visualstudio.com/search?term=publisher%3A%22Microsoft%22&target=VSCode&sortBy=Relevance)
 - [Elm](https://marketplace.visualstudio.com/items?itemName=sbrink.elm) from [Sascha Brink](https://marketplace.visualstudio.com/search?term=publisher%3A%22Sascha%20Brink%22&target=VSCode&sortBy=Relevance)
 
