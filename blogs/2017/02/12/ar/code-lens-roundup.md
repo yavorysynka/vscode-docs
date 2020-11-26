@@ -63,11 +63,11 @@ Imagine you have this colleague who likes to write complex functions. They think
 As an added bonus, you can customize the descriptions. Here is the configuration we like to use on our team:
 
 ```
-"codemetrics.basics.ComplexityLevelExtremeDescription": "😱",
-"codemetrics.basics.ComplexityLevelHighDescription": "😳",
-"codemetrics.basics.ComplexityLevelLowDescription": "🤓",
-"codemetrics.basics.ComplexityLevelNormalDescription": "🤔",
-"codemetrics.basics.ComplexityTemplate": "Complexity is {0} {1}"
+"codemetrics.basics. ComplexityLevelExtremeDescription": "😱",
+"codemetrics.basics. ComplexityLevelHighDescription": "😳",
+"codemetrics.basics. ComplexityLevelLowDescription": "🤓",
+"codemetrics.basics. ComplexityLevelNormalDescription": "🤔",
+"codemetrics.basics. ComplexityTemplate": "Complexity is {0} {1}"
 ```
 
 As you can see, we like emojis.
