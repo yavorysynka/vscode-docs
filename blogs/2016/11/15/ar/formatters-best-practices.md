@@ -32,7 +32,7 @@ vscode.commands.registerCommand('extension.format-foo', () => {
         const firstLine = document.lineAt(0);
 
         if (firstLine.text !== '42') {
-            const edit = new vscode.WorkspaceEdit();
+            const edit = new vscode. WorkspaceEdit();
             edit.insert(document.uri, firstLine.range.start, '42\n');
 
             return vscode.workspace.applyEdit(edit)
@@ -43,11 +43,11 @@ vscode.commands.registerCommand('extension.format-foo', () => {
 
 // 👍 formatter implemented using API
 vscode.languages.registerDocumentFormattingEditProvider('foo-lang', {
-    provideDocumentFormattingEdits(document: vscode.TextDocument): vscode.TextEdit[] {
+    provideDocumentFormattingEdits(document: vscode. TextDocument): vscode. TextEdit[] {
 
         const firstLine = document.lineAt(0);
         if (firstLine.text !== '42') {
-            return [vscode.TextEdit.insert(firstLine.range.start, '42\n')];
+            return [vscode. TextEdit.insert(firstLine.range.start, '42\n')];
         }
     }
 });
