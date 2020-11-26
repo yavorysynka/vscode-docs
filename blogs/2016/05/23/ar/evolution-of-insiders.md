@@ -49,6 +49,6 @@ We will start building and releasing the Insiders builds on a daily basis in con
 
 If you are not using the Insiders builds and want to be on the leading edge, using the same builds we use to develop VS Code, head over to our [downloads page](/insiders) and install the Insiders build today.
 
-See you on [GitHub](https://github.com/microsoft/vscode), [Twitter](https://go.microsoft.com/fwlink/?LinkID=533687), and [Stack Overflow](https://stackoverflow.com/questions/tagged/vscode)!
+See you on [GitHub](https://github.com/microsoft/vscode), [Twitter](https://go.microsoft.com/fwlink/? LinkID=533687), and [Stack Overflow](https://stackoverflow.com/questions/tagged/vscode)!
 
 Wade Anderson <br> [@waderyan_](https://twitter.com/waderyan_)
