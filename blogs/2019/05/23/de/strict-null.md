@@ -28,14 +28,11 @@ To illustrate the problem VS Code was facing before enabling strict null checkin
 Our example library consists of a single `getStatus` function that fetches a given user's status from the backend of a hypothetical website:
 
 ```ts
-export interface User {
-    readonly id: string;
-}
-
-/**
- * Get the status of a user
- */
+*/
 export async function getStatus(user: User): Promise<string> {
+    if (!user) {
+        return '';
+    }
     const id = user.id;
     const result = await fetch(`/api/v0/${id}/status`);
     const json = await result.json();
@@ -52,15 +49,15 @@ Tracing back a little farther, it seems one of our fellow engineers is calling `
 So we update the calling code, update `getStatus` to handle `undefined`, and also add a helpful warning in our doc comment:
 
 ```ts
+export interface User {
+    readonly id: string;
+}
+
 /**
- * Get the status of a user
  *
- * Don't call this with undefined or null!
+ Get the status of a user
  */
 export async function getStatus(user: User): Promise<string> {
-    if (!user) {
-        return '';
-    }
     const id = user.id;
     const result = await fetch(`/api/v0/${id}/status`);
     const json = await result.json();
@@ -85,9 +82,9 @@ So we investigate again, fix the code again, add more tests. Maybe also send a p
 ```ts
 /**
  * Get the status of a user
+ * * !!!
  *
- * !!!
- * WARNING: Don't call this with undefined or null, or with a user without an id
+ WARNING: Don't call this with undefined or null, or with a user without an id
  * !!!
  */
 export async function getStatus(user: User): Promise<string> {
