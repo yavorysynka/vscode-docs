@@ -61,7 +61,7 @@ However, when we talked to developers about how they were launching their applic
 
 **Observation**: Many developers who are using VS Code really love the Integrated Terminal and rely on command-line tools to launch their applications. For many, it's a more natural workflow to run a command in the terminal followed by attaching the debugger from the editor. This is similar to opening DevTools after the browser has been launched.
 
-This observation was key, and we realized that many users don't want a full "magical" launch experience in their editor. They want to keep their editor as the place to edit and debug source code and use the terminal to launch apps, run build scripts, etc. This is one of the reasons why we have an Integrated Terminal experience inside VS Code, as we believe a good functional UI should co-exist and integrate well with the terminal.
+This observation was key, and we realized that many users don't want a full "magical" launch experience in their editor. They want to keep their editor as the place to edit and debug source code and use the terminal to launch apps, run build scripts, etc. This is one of the reasons why we have an Integrated Terminal experience inside VS Code, as we believe a good functional UI should co-exist and integrate well with the terminal. This is one of the reasons why we have an Integrated Terminal experience inside VS Code, as we believe a good functional UI should co-exist and integrate well with the terminal.
 
 ### Many developers don't use breakpoints because they are inspecting state changes
 
