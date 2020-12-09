@@ -22,7 +22,7 @@ To help new users, today we are announcing a set of introductory videos. These v
 
 Navigate to [Intro Videos - Overview](/docs/getstarted/introvideos.md) to get started.
 
-Below is the first video covering downloading, installing, and the basics of using VS Code: <iframe src="https://www.youtube.com/embed/LUl_WXt8ohA?rel=0&amp;disablekb=0&amp;modestbranding=1&amp;showinfo=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe>
+Below is the first video covering downloading, installing, and the basics of using VS Code:  <iframe src="https://www.youtube.com/embed/LUl_WXt8ohA?rel=0&amp;disablekb=0&amp;modestbranding=1&amp;showinfo=0" frameborder="0" allowfullscreen mark="crwd-mark"></iframe>
 
 You can see the video outline [here](/docs/introvideos/basics.md) as well as additional introductory learning resources.
 
