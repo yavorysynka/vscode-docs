@@ -368,6 +368,9 @@ Here are two Monokai theme rules (as JSON here for brevity; the original is in X
 // Class name
 { "scope": "entity.name.class", "fontStyle": "underline", "foreground":"#A6E22E" }
 ...
+// Class name
+{ "scope": "entity.name.class", "fontStyle": "underline", "foreground":"#A6E22E" }
+...
 ```
 
 In VS Code 1.8, to match our "approximated" scopes, we would generate the following dynamic CSS rules:
@@ -376,6 +379,9 @@ In VS Code 1.8, to match our "approximated" scopes, we would generate the follow
 ...
 /* Function name */
 .entity.name.function { color: #A6E22E; }
+...
+/* Class name */
+.entity.name.class { color: #A6E22E; text-decoration: underline; }
 ...
 /* Class name */
 .entity.name.class { color: #A6E22E; text-decoration: underline; }
@@ -491,24 +497,22 @@ export class ScopeListElement {
     public readonly metadata: number;
     ...
 }
+}
 ```
 
 We store 32 bits of metadata:
 
 ```
 /**
- * - -------------------------------------------
- *     3322 2222 2222 1111 1111 1100 0000 0000
- *     1098 7654 3210 9876 5432 1098 7654 3210
- * - -------------------------------------------
- *     xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
- *     bbbb bbbb bfff ffff ffFF FTTT LLLL LLLL
- * - -------------------------------------------
- *  - L = LanguageId (8 bits)
- *  - T = StandardTokenType (3 bits)
- *  - F = FontStyle (3 bits)
- *  - f = foreground color (9 bits)
- *  - b = background color (9 bits)
+ * 3322 2222 2222 1111 1111 1100 0000 0000
+ * 1098 7654 3210 9876 5432 1098 7654 3210
+ * xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ * bbbb bbbb bfff ffff ffFF FTTT LLLL LLLL
+ * - L = LanguageId (8 bits)
+ * - T = StandardTokenType (3 bits)
+ * - F = FontStyle (3 bits)
+ * - f = foreground color (9 bits)
+ * - b = background color (9 bits)
  */
 ```
 
@@ -564,7 +568,7 @@ To get the following measurements, I've picked three files with different charac
 
 I've run the tests on a somewhat powerful desktop machine on Windows (which uses Electron 32 bit).
 
-I had to make some changes to the source code in order to compare apples with apples, such as ensuring the exact same grammars are used in both VS Code versions, turning off rich language features in both versions, or lifting the 100 stack depth limitation in VS Code 1.8 which no longer exists in VS Code 1.9, etc. I also had to split bootstrap.min.css into multiple lines to get each line under 20k chars.
+I had to make some changes to the source code in order to compare apples with apples, such as ensuring the exact same grammars are used in both VS Code versions, turning off rich language features in both versions, or lifting the 100 stack depth limitation in VS Code 1.8 which no longer exists in VS Code 1.9, etc. I also had to split bootstrap.min.css into multiple lines to get each line under 20k chars. I also had to split bootstrap.min.css into multiple lines to get each line under 20k chars.
 
 ### Tokenization times
 
