@@ -109,6 +109,9 @@ To improve the JavaScript and JSX support, the plan is to adopt [Salsa](https://
     }
     ...
 }
+    }
+    ...
+}
 ```
 
 * If you are using React constructs inside `.js` files then you can install the `js-is-jsx` [extension](https://marketplace.visualstudio.com/items/eg2.js-is-jsx) which changes the file mapping so that `.js` files are treated as `.jsx` files. **Be aware** that if you install this extension, you lose the existing language support for `.js` files.
